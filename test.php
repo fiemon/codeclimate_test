@@ -1,2 +1,3 @@
 <?php
-    echo "helloworld";
+    echo "helloworld\n";
+    echo "yamano\n";
