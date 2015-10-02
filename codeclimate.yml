@@ -3,8 +3,9 @@ languages:
    JavaScript: true
    Python: true
    PHP: true
-exclude_paths:
-- "test/*"
+#exclude_paths:
+#- "test/*"
+
 # This is a sample .codeclimate.yml configured for Engine analysis on Code
 # Climate Platform. For an overview of the Code Climate Platform, see here:
 # http://docs.codeclimate.com/article/300-the-codeclimate-platform
@@ -55,3 +56,4 @@ engines:
 exclude_paths:
 - spec/**/*
 - vendor/**/*
+- test/*
